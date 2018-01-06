@@ -8,6 +8,7 @@ app.on('ready', () =>{
         height: 600,
         width: 800
     });
+    mainWindow.setMenu(null);
 
     mainWindow.loadURL('File://' + __dirname + '/index.html');
 });
